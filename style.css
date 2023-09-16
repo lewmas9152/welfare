@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body {
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 100vh; */
+    min-height: 100%;
+    margin: 2rem;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.coverImg {
+    width: 100vw;
+}
