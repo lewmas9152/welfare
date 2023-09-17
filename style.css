@@ -1,19 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
 body {
-    background-color: beige;
+    background-color: rgb(13, 46, 23);
     background-repeat: no-repeat;
     background-size: cover;
     /* min-height: 100vh; */
     min-height: 100%;
     margin: 2rem;
     font-family: 'Nunito', sans-serif;
+    color: white;
+    margin: 0;
+    border: 0;
 
+}
+h1 {
+    font-size: 3rem;
+    color: gold;
+    text-align: center;
+    margin: 2rem;
+}
+main {
+    margin: 20px;
 }
 
 img {
     width: 50%;
     height: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(199, 169, 0);
 }
 
 
@@ -24,4 +38,31 @@ img {
 
 .coverImg {
     width: 100vw;
+}
+.contacts {
+    background-color: rgb(102, 87, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.motto {
+     margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 0;
+    border: 0;
+}
+.grid > p {
+    font-size: 1.3rem;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding: 0;
+    margin-bottom: 5px;
 }
