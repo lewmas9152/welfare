@@ -1,27 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
 body {
-    background-color: beige;
+    background-color: rgb(176, 248, 95);
     background-repeat: no-repeat;
     background-size: cover;
     /* min-height: 100vh; */
     min-height: 100%;
-    margin: 2rem;
+    margin: 1rem;
     font-family: 'Nunito', sans-serif;
+    color: white;
 
 }
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+   
+}
 
-img {
-    width: 50%;
-    height: auto;
+button {
+    background-color: rgb(16, 78, 16);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(8, 163, 8);
+    color: white;
+    transform: scale(1.1);
 }
 
 
 .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    color: black;
+   
 }
 
 .coverImg {
     width: 100vw;
+}
+
+.grid img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(16, 78, 16);
+    color: black;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+footer h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.handles {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+   
 }
