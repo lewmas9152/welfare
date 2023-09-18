@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
 body {
-    background-color: rgb(176, 248, 95);
+    background-color: rgb(13, 46, 23);
     background-repeat: no-repeat;
     background-size: cover;
     /* min-height: 100vh; */
     min-height: 100%;
-    margin: 1rem;
+    /* margin: 1rem; */
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: goldenrod;
 
 }
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+
 .list {
     display: flex;
     flex-direction: row;
@@ -37,16 +44,16 @@ button:hover {
     background-color: rgb(8, 163, 8);
     color: white;
     transform: scale(1.1);
+    border: 1px solid gold;
 }
 
 
 .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: green;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: beige;
    
 }
 
@@ -59,10 +66,12 @@ button:hover {
 }
 
 footer {
-    background-color: rgb(16, 78, 16);
-    color: black;
+    background-color: rgb(139, 120, 11);
+    color: rgb(235, 235, 235);
     padding: 1rem;
     margin-top: 1rem;
+    text-transform: uppercase;
+
 }
 
 footer h2 {
