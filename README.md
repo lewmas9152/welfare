@@ -1,4 +1,5 @@
 # welfare
-<h1>Dekut Welfare Society</h1>
+## Dekut Welfare Society
 <img src="./images/logo.svg.png" alt="dekut welfare society">
-<p>Landing page for dekut welfare society</p>
+View the page [here](https://clint171.github.io/welfare/)
+
